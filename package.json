@@ -1,0 +1,21 @@
+{
+  "name": "dots-theme",
+  "displayName": "Dots Theme",
+  "description": "Dots Theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.98.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dots Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/DotsTheme-color-theme.json"
+      }
+    ]
+  }
+}
